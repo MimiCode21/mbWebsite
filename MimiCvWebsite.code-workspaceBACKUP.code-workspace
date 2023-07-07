@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5504,
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#f6fbeb",
+			"activityBar.background": "#f6fbeb",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#60b7df",
+			"activityBarBadge.foreground": "#15202b",
+			"commandCenter.border": "#15202b99",
+			"sash.hoverBorder": "#f6fbeb",
+			"statusBar.background": "#e3f2c1",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#d0e997",
+			"statusBarItem.remoteBackground": "#e3f2c1",
+			"statusBarItem.remoteForeground": "#15202b",
+			"titleBar.activeBackground": "#e3f2c1",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#e3f2c199",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.color": "#E3F2C1",
+		"liveServer.settings.multiRootWorkspaceName": "MimiCvWebsite"
+	}
+}

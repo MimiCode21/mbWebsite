@@ -1,0 +1,213 @@
+body {
+  color: #34495E;
+  font-family: 'ubuntu';
+  text-align: center;
+}
+
+
+#title {
+  background-color: #FADBD8;
+  color: #34495E;
+  font-family: 'Montserrat-bold', sans-serif;
+  text-align: left;
+  }
+
+.navbar-light .navbar-brand {
+  color: #34495E;
+}
+
+
+.contaoniner-fluid {
+  padding: 3% 15%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'ubuntu';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+.main-header {
+  font-family: 'Montserrat-black','Ubuntu', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 2;
+}
+/* Naviagtion Bar */
+
+.navbar {
+  padding: 0 0 3.5rem;
+
+}
+
+.navbar-brand {
+  color: #34495E;
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding-left: 0 18px;
+  color: #34495E;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Ubuntu condensed';
+  color: #34495E;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#0b0e07;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  background:linear-gradient(rgba(5, 5, 5, 1), rgba(10, 10, 10, 1));
+
+}
+
+.buttonClass:hover {
+  background: linear-gradient(rgba(10, 10, 10, 1), rgba(5, 5, 5, 1));
+}
+
+/* Title Image */
+.title-image {
+  width: 80%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+
+  position: relative;
+}
+
+/* Features Section */
+
+#mum-bundles {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.bundle-title {
+  font-size: 1.5rem;
+}
+
+.bundle-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #FADBD8;
+  margin-bottom: 2rem;
+
+}
+
+.icon:hover {
+  color: #34495E;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #FADBD8;
+  color: #34495E;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #FADBD8;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+/* Footer */
+
+#cta {
+  background-color: #FADBD8;
+  padding: 10%;
+  font-family: 'Montserrat-black','Ubuntu', sans-serif;
+
+
+}
+
+.footer-title {
+  font-family: 'Montserrat-black','Ubuntu', sans-serif;
+  font-size: 4rem;
+}
+
+#footer {
+  padding: 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 991px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+
+  }
+}

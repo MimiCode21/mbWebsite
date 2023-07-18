@@ -108,7 +108,6 @@ nav {
     color: white;
     text-align: center;
     
-    
 }   
 
 
@@ -116,10 +115,7 @@ a.indexsty {
     /* width: 100%; */
     /* overflow: auto; */
     text-align: center;
-    margin-left: 10%;
-    
-    
-   
+    margin-left: 10%;   
 }
 
 a.indexsty:hover {

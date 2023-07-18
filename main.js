@@ -52,6 +52,32 @@ function hoverOutcreamtohover(id){
  id.src = "./Hover over.png"
 } 
 
+// Drum Kit
+function hoverdrumtohover(id)
+{
+ id.src = "drumKit/images/drumkit img.png"
+}   
+function hoverOutdrumtohover(id){
+ id.src = "./Hover over.png"
+} 
+
+// Roll The Dice
+function hoverdicetohover(id)
+{
+ id.src = "theDiceGame/images/rollTheDice.png"
+}   
+function hoverOutdicetohover(id){
+ id.src = "./Hover over.png"
+} 
+
+// The Simon Game
+function hoversimontohover(id)
+{
+ id.src = "theSimonGame/theSimonGame.png"
+}   
+function hoverOutsimontohover(id){
+ id.src = "./Hover over.png"
+} 
 
 // Mummys Hub
 const mumtohoverImage = document.getElementById("mumtohover");
@@ -107,3 +133,29 @@ creamtohoverImage.addEventListener("mouseout", function() {
     hoverOutcreamtohover(this);
 })
 
+// drum Kit
+const drumtohoverImage = document.getElementById("drumtohover");
+drumtohoverImage.addEventListener("mouseover", function() {
+    hoverdrumtohover(this);
+});
+drumtohoverImage.addEventListener("mouseout", function() {
+    hoverOutdrumtohover(this);
+})
+
+// Roll The Dice
+const dicetohoverImage = document.getElementById("dicetohover");
+dicetohoverImage.addEventListener("mouseover", function() {
+    hoverdicetohover(this);
+});
+dicetohoverImage.addEventListener("mouseout", function() {
+    hoverOutdicetohover(this);
+})
+
+// The Simon Game
+const simontohoverImage = document.getElementById("simontohover");
+simontohoverImage.addEventListener("mouseover", function() {
+    hoversimontohover(this);
+});
+simontohoverImage.addEventListener("mouseout", function() {
+    hoverOutsimontohover(this);
+})

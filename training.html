@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Training</title>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,8 @@
     <style>
 
         body {
-          background-color: #eceada;
+          background-color: #ffffff;
+          /* background-color: #eceada; */
           color: #233325; 
         }
 
@@ -49,13 +51,17 @@
 
         h1 {
             color:#233325;
-            background-color: #eceada;
+            
             font-size: 4rem;
+            text-align: center;
+            margin-top: 5;
         }
 
         h2 {
             color:#233325;
-            font-size: 2rem;
+            font-size: 3rem;
+            text-align: center;
+           
         }
 
         li {
@@ -82,398 +88,299 @@
             padding-right: 5%;
             margin-bottom: 5%;
         }
+
+        .resumehead {
+          margin-top: 2%;
+          margin-right: 100%;
+          margin-left: 2%;
+        }
+
+        .btn {
+          margin-top: 5%;
+          background-color: #233325;
+          color: #ffffff;
+        }
+
+        .d-grid {
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+        .accordion-container {
+          border-radius: 50px;
+          
+        }
+
+        .accordion-header{
+          border-radius: 50px;
+          padding: 1%;
+        }
+
+        #REFERENCES {
+          font-size: 1.5rem;
+        }
+
+    
+       
       </style>
     </head>
-<body class="trainingbg">
+<body>
 
-  <nav>
-    <a class="indexsty" href="./index.html" class="headbutton"><span class="text-container">Home</span></a>
-    <a class="indexsty" href="./about.html" class="headbutton"><span class="text-container">About</span></a>
-    <a class="indexsty" href="./training.html" class="headbutton"><span class="text-container">Resume</span></a>
-    <a class="indexsty" href="./projects.html" class="headbutton"><span class="text-container">Projects</span></a>
-    <a class="indexsty" href="./hobbies.html" class="headbutton"><span class="text-container">Hobbies</span></a>
-    <a class="indexsty" href="./contact.html" class="headbutton"><span class="text-container">Contact Me</span></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg---bs-success-bg-subtle">
+    <div class="container justify-content-center">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <!-- <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a> -->
+        <a class="nav-item nav-link" href="./index.html">Home</a>
+        <a class="nav-item nav-link" href="./about.html">About</a>
+        <a class="nav-item nav-link" href="./training.html">Resume</a>
+        <a class="nav-item nav-link" href="./projects.html">Projects</a>
+        <a class="nav-item nav-link" href="./hobbies.html">Hobbies</a>
+        <a class="nav-item nav-link" href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
   </nav>
-
-      <img src="./Resume.png" alt="training">
+  
+    <h1>Resume</h1>    
+  
+  <!-- <div class="resumehead" >
+    <img src="./Resume.png" alt="training">
+  </div> -->
 
       <div class="background">
-      <div class="header">
-        <h1>Work Experience</h1>
-      </div>
-  
-      <hr>
-
-
-      <div class="row">
-        <div class="column side">
-          <h2 id="Skills">Profile</h2>
-          <p></p>
-          <p></p>
-        </div>
-        
-        <div class="column middle">
-          <h2></h2>
-          <p>I am pursuing a career switch into software engineering with a keen eye on web development. My unique blend of customer service experience and technical aptitude makes me a valuable asset in bridging the gap between user needs and efficient website design. I am seeking a role where I can apply my passion for coding and problem-solving to create intuitive and visually appealing web experiences. I am committed to expanding my skill set, and eager to contribute to a dynamic team and continue my professional growth in the field. I am a motivated and highly adaptable professional with a strong background in property management and a passion for web development. I am eager to leverage my skills and knowledge gained in HTML, CSS, JavaScript and REACT, taught through bootcamps and self learning. I have inherited excellent solution focussed methods to deal with issues, and inhabit strong organisational and time management skills.</p>
-            
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="Skills">Skills</h2>
-          <p></p>
-          <p></p>
-        </div>
-        
-        <div class="column middle">
-          <h2></h2>
-          <p># Property Management: Extensive experience in overseeing property operations, tenant relations, lease administration, and financial analysis. Demonstrated ability to handle diverse responsibilities, prioritise tasks, and ensure customer satisfaction.</p>
-          <p># Web Development: Proficient in HTML, CSS, JavaScript and REACT, with hands-on experience in creating responsive and visually appealing web interfaces. Strong understanding of front-end web development principles, including cross-browser compatibility, accessibility, and responsive design.</p>
-          <p># Problem Solving: grasping good understanding at identifying and troubleshooting technical issues, implementing effective solutions, and continuously learning and adapting to new technologies and frameworks. Thrives on challenges, well organised, great customer service, communication and time Management skills</p>
-          <p># Communication and Collaboration: Exceptional interpersonal skills, fostering positive relationships with clients, tenants, and colleagues. Ability to work collaboratively in team environments and effectively convey technical concepts to non-technical stakeholders.</p>
-          <p># Natural problem solver with ability to multi-task and. Uses own initiative, great management skills, strong ability to work under pressure, great ability to cope with change, and adapt to new situations.</p> 
-          <p># Experience in MS Word, Excel, Outlook, G suite, Dropbox, Photoshop, Shopify, HTML, CSS, JavaScript, Bootstrap, Nodejs, Express REACT, Github, Dev tools</p>
-        </div><br><br>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-      <hr>
-    
-      
-      
-      <div class="topnav">
-          <a href="#PM">Property/Office</a>
-          <a href="#Previous History">Previous History</a>
-          <a href="#Skills">Skills</a>
-          <a href="#EDUCATION/QUALIFICATIONS/CERTIFICATES">EDUCATION/QUALIFICATIONS/CERTIFICATES</a>
-          <a href="#REFERENCES">REFERENCES</a>
-      </div>
-      
-      
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="JLL">JLL</h2>
-          <p>Property Manager.</p>
-          <p>04/04/2020 To 20/05/2022</p>
-        </div>
-        
-        <div class="column middle">
-          <h2>Responsibilities</h2>
-          <ul class="responsibilities">
-            <li>Taking all calls and responding to all email enquiries and all ad hoc duties. Liaising with suppliers and contact IT when issues arose.</li>
-            <li>Taking control of diary management, and undertaking the day to day management of a designated portfolio of properties of 160.</li>
-            <li>Managing clients budget, to authorise and approve all invoices received for payment upon being satisfied on the completion of works.</li>
-            <li>Managing all maintenance and repair work and monitoring and controlling all regular maintenance contracts.</li>
-            <li>Handling demanding situations, and dealing tactfully and diplomatically when dealing with a wide range of people.</li>
-            <li>To liaise with all clients /contractors/surveyor’s block agents and residents’ associations as and when required </li>
-            <li>To supervise and monitor updating of the computerised property records system including all contract records and contractor listings and diary management.</li>
-          </ul>
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="Geckoboard">Geckoboard</h2>
-          <p>Office Manager.</p>
-          <p>04/04/2019 TO 29/04/2020</p>
-        </div>
-        
-        <div class="column middle">
-          <h2>Responsibilities</h2>
-          <ul class="responsibilities">
-            <li>Meeting and greeting all clients and managing all facilities, being the first point of contact for all operations issues across the company.</li>
-            <li>Taking all calls and responding to all email enquiries and all ad hoc duties. Meeting with all suppliers and liaising with IT when issues arose.</li>
-            <li>Taking control of diary management, and undertaking the day to day management.</li>
-            <li>Authorize and approve all invoices received for payment upon being satisfied on the completion of works.</li>
-            <li>Put procedures and systems in place to aid the smooth running of the department. Having meetings were necessary to enforce change or discuss issues</li>
-            <li>Liaising with our accounts team and ensuring that system is updated daily with reports of issues.</li>
-            <li>Creating a development session with colleagues in order to develop their career. Set up mental health support within the company.</li>
-            <li>To be responsible for the day to day monitoring and control of all aspects of health and safety and always ensure compliance with current legislation including   the updating of all health and safety audit documentation in accordance with health and safety legislation. Run Health and safety introduction classes.</li>
-            <li>Managing all maintenance work and monitoring and controlling all regular maintenance contracts. Negotiating with suppliers and scouting for new tradesmen.</li>
-            <li>Conduct meetings with all clients for briefings, prepare proposals and organise shows around requests.</li>
-            <li>Organising vendors, managing the catering arrangements and dealing with all enquiries. Taking delegate bookings and processing payments for events.</li>
-            <li>Developing good relationships with the venue staff and suppliers and ensure positive ongoing liaison.</li>
-            <li>Meet with editors and marketing teams to proof website material and check promotional pieces are being produced to the brief.</li>
-            <li>Producing call sheets and schedules for the event and management of the diary.</li>
-            <li>Working closely with the Social Media and Blogger Outreach team to co-develop content – and writing content for the team to use.</li>
-            <li>Developing merchandising plan by identifying key seasonal events and trends. Contacting makers to explore ideas for new products that deliver the merchandising plan.</li>
-            <li>Monitoring and reporting on page views and sales to understand the effectiveness of the merchandising plan.</li>
-              
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="Cluttons">Cluttons</h2>
-          <p>Property Manager.</p>
-          <p>20/10/17 TO 28/03/2019</p>
-        </div>
-        
-        <div class="column middle">
-          <h2>Responsibilities</h2>
-          <ul class="responsibilities">
-            <li>Taking all calls and responding to all email enquiries and all ad hoc duties. Liaising with suppliers and contact IT when issues arose.</li>
-            <li>Taking control of diary management, and undertaking the day to day management of a designated portfolio of properties of 160.</li>
-            <li>Managing clients budget, to authorise and approve all invoices received for payment upon being satisfied on the completion of works.</li>
-            <li>Managing all maintenance and repair work and monitoring and controlling all regular maintenance contracts.</li>
-            <li>Handling demanding situations, and dealing tactfully and diplomatically when dealing with a wide range of people.</li>
-            <li>To liaise with all clients /contractors/surveyor’s block agents and residents’ associations as and when required </li>
-            <li>To supervise and monitor updating of the computerised property records system including all contract records and contractor listings and diary management.</li>
-          </ul>
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="Daniel Cobb">Daniel Cobb</h2>
-          <p>Property Manager.</p>
-          <p>25/05/16 TO 20/10/17</p>
-        </div>
-        
-        <div class="column middle">
-          <h2>Responsibilities</h2>
-          <ul class="responsibilities">
-            <li>Creating systems to aid the smooth running of all maintenance of properties/ diary management, handling a portfolio of 300 properties within a team.</li>
-            <li>Instructing contractors, obtaining quotes, raising job instructions, ensuring work is completed and adhere to budgets set.</li>
-            <li>Managing expenses and Budgeting ensuring targets are being set and met.</li>
-            <li>Ensuring compliance with health & safety including arranging gas safety and EICR testing, smoke alarm & CO2 tests and legionnaires risk assessments.</li>
-            <li>Conduct periodic property visits and prepare reports for landlord.</li>
-            <li>Key management daily/weekly audits/ ensuring that the system is daily updated.</li>
-            <li>Develop excellent long-term relationships with both clients, tenants, vendors and all third-party suppliers.</li>
-            <li>Working closely with the Managers and Negotiators to ensure clients are always given excellent advice and service.</li>
-            <li>Chasing outstanding rents and communicating arrears situations with landlords.</li>
-            <li>Arranging inventories, check-ins and check-outs and checking the reports.</li>
-            <li>Managing the termination process and helping to ensure managed properties are prepared to remarket.</li>
-            <li>Dealing and handling deposit disputes.</li>
-              
-          </ul>
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="Islington Properties">Islington Properties </h2>
-          <p>Assistant Property Manager.</p>
-          <p>18/02/15 TO 20/05/2016</p>
-        </div>
-        
-        <div class="column middle">
-          <h2>ResponsibilitiesTitle</h2>
-          <ul class="responsibilities">
-            <li>Liaising with Landlords and Tenants and managing expectations of all aspects of property management.</li>
-            <li>Handling day to day property maintenance issues reported by tenants and communicating with contractors and landlords as necessary.</li>
-            <li>Dealing and finding solutions to landlord and tenants’ complaints.</li>
-            <li>Obtaining quotations for landlords for any works and approval for any larger items of work.</li>
-            <li>Managing the progress of maintenance issues and seeing them through to completion.</li>
-            <li>Managing the termination process and helping to ensure managed properties are prepared for remarketing.</li>
-            <li>Meeting with all clients, taking all calls, answering email queries. Carrying out all ad hoc duties.</li>
-            <li>Ensuring all systems are kept up to date and maintained, diary management and minute taking for all meetings.</li>
-            <li>Managing health and safety requirements in relation to tenancies.</li>
-            <li>Conducting formal management visit bi-annually and creating reports for landlords.</li>
-            <li>Invoice processing, budget handling Processing and receiving all rents.</li>
-            <li>Processing and handling all move in finances for managed and non-managed properties and invoice management.</li>
-            <li>Chasing outstanding rents and communicating arrears situations with landlords.</li>
-            <li>Arranging inventories, check-ins and check-outs and checking the reports.</li>
-            <li>Handling the return of tenant’s deposits after liaising with landlords. Dealing with TDS deposits disputes.</li>
-          </ul>
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="Fresh Student Living">Fresh Student Living</h2>
-          <p>Assistant Accommodation Manager</p>
-          <p>9/06/14 TO 13/02/2015</p>
-        </div>
-        
-        <div class="column middle">
-          <h2>ResponsibilitiesTitle</h2>
-          <ul class="responsibilities">
-            <li>Liaising with potential residents, correctly ascertain customer needs and provide help and assistance when required.</li>
-            <li>Up selling the facilities and offering advice where appropriate.</li>
-            <li>Being the first point of contact for tenants’ queries delivering a high standard of customer service.</li>
-            <li>Welcoming all customers with a positive and enthusiastic manner, while conducting and showcasing Studio viewings.</li>
-            <li>Data entry, updating the system with developments and reviews and promoting and managing all social sites.</li>
-            <li>Calling tenants regarding housing arrears, charging tenants accordingly and chasing monitoring enquiries.</li>
-            <li>Service delivery to our customers including housekeeping and maintenance, liaising with contractors and gathering quotes.</li>
-            <li>Maintaining health and safety standards, and undertaking site inspections.</li>
-            <li>Carrying-out Competitor Market Analysis reports, editing company handbook, and ensuring all systems in place are being adhered to.</li>
-            <li>Demonstrating a courteous, helpful and pleasant telephone manner and dealing with all email queries.</li>
-            <li>Working efficiently and being a reliable and flexible team member, with the ability to remain calm working under pressure and manage changing priorities.</li>
-            <li>Using my initiative when demanding situations arise, and dealing tactfully and diplomatically when dealing with a wide range of people.</li>
-              
-          </ul>
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-    
-
-  
-      <hr>
-   <div class="row">
-        <div class="column side">
-          <h2 id="Previous History">Previous History</h2>
-          <p></p>
-          <p></p>
-        </div>
-        
-        <div class="column middle">
-          <h2></h2>
-          <p>Between 2008 and 2014, I worked in various positions doing Events organising, Online Merchandising and was a sales associate and assistant manager in varied retail stores and companies..</p>
-            
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-      
-  
      
       <hr>
   
-      <div class="row">
-        <div class="column side">
-          <h2 id="EDUCATION/QUALIFICATIONS/CERTIFICATES">EDUCATION/QUALIFICATIONS/CERTIFICATES</h2>
-          <p>SEPTEMBER 2008-2012</p>
-          <p></p>
-        </div>
-        <br><br><br>
-        <div class="column middle">
-          <h2></h2>
-          <p>BA HONORS, FASHION JOURNALISM UNIVERSITY OF THE CREATIVE ARTS SURREY</p>
-            
-        </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-secondary btn-lg" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-html="true" data-bs-content="I am pursuing a career switch into software engineering with a keen eye on web development. My unique blend of customer service experience and technical aptitude makes me a valuable asset in bridging the gap between user needs and efficient website design. I am seeking a role where I can apply my passion for coding and problem-solving to create intuitive and visually appealing web experiences. I am committed to expanding my skill set, and eager to contribute to a dynamic team and continue my professional growth in the field. I am a motivated and highly adaptable professional with a strong background in property management and a passion for web development. I am eager to leverage my skills and knowledge gained in HTML, CSS, JavaScript and REACT, taught through bootcamps and self learning. I have inherited excellent solution focussed methods to deal with issues, and inhabit strong organisational and time management skills.">
+          Profile
+        </button>
+          <!-- <button type="button" class="btn btn-secondary btn-lg" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-html="true" data-bs-content="<ul><li># Property Management: Extensive experience in overseeing property operations, tenant relations, lease administration, and financial analysis. Demonstrated ability to handle diverse responsibilities, prioritise tasks, and ensure customer satisfaction.</li></ul>
+              
+          # Web Development: Proficient in HTML, CSS, JavaScript and REACT, with hands-on experience in creating responsive and visually appealing web interfaces. Strong understanding of front-end web development principles, including cross-browser compatibility, accessibility, and responsive design.<br><br>
+          
+          # Problem Solving: grasping good understanding at identifying and troubleshooting technical issues, implementing effective solutions, and continuously learning and adapting to new technologies and frameworks. Thrives on challenges, well organised, great customer service, communication and time Management skills<br><br>
+          
+          # Communication and Collaboration: Exceptional interpersonal skills, fostering positive relationships with clients, tenants, and colleagues. Ability to work collaboratively in team environments and effectively convey technical concepts to non-technical stakeholders.<br><br>
+          
+          # Natural problem solver with ability to multi-task and. Uses own initiative, great management skills, strong ability to work under pressure, great ability to cope with change, and adapt to new situations.<br><br>
+          
+          # Experience in MS Word, Excel, Outlook, G suite, Dropbox, Photoshop, Shopify, HTML, CSS, JavaScript, Bootstrap, Nodejs, Express REACT, Github, Dev tools">
+          Skills
+        </button> -->
+        <button type="button" class="btn btn-secondary btn-lg" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-html="true" data-bs-content="BootCamps: Udemy: -- The Complete 2023 Web Development Bootcamp --.__ -- Code First Girls: -- Introduction to Web Development -- && -- Intro to Javascript. __ -- CBT Nuggets: -- Javascript--. -- ((BA HONORS, FASHION JOURNALISM UNIVERSITY OF THE CREATIVE ARTS SURREY - BA HONORS, FASHION JOURNALISM UNIVERSITY OF THE CREATIVE ARTS SURREY))">
+          Education & Qualifications
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-html="true" data-bs-content="Training How to Deal with Difficult People. Learnt how to: Developed specific strategies for conflict resolution.Recognised classic profiles of difficult people. >Pre-empt challenging situations and avoid further escalation
+          >Developed communication skills designed to improve delivery of bad news. >Recognised personality types with which you may clash. >Developed assertive skills and behaviors. >Handle aggressive behavior. >Calm angry, upset and unresponsive individuals. >People training/ Health and safety.">
+          Training and Heath and Safety
+        </button>
         
-        <div class="column side">
-          <h2></h2>
-          <p></p>
+      </div>
+     
+        <h2>Work Experience</h2>
+      
+      <hr>
+      <div class="accordion-container">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Skills
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              # Property Management: Extensive experience in overseeing property operations, tenant relations, lease administration, and financial analysis. Demonstrated ability to handle diverse responsibilities, prioritise tasks, and ensure customer satisfaction.<br><br>
+              
+              # Web Development: Proficient in HTML, CSS, JavaScript and REACT, with hands-on experience in creating responsive and visually appealing web interfaces. Strong understanding of front-end web development principles, including cross-browser compatibility, accessibility, and responsive design.<br><br>
+              
+              # Problem Solving: grasping good understanding at identifying and troubleshooting technical issues, implementing effective solutions, and continuously learning and adapting to new technologies and frameworks. Thrives on challenges, well organised, great customer service, communication and time Management skills<br><br>
+              
+              # Communication and Collaboration: Exceptional interpersonal skills, fostering positive relationships with clients, tenants, and colleagues. Ability to work collaboratively in team environments and effectively convey technical concepts to non-technical stakeholders.<br><br>
+              
+              # Natural problem solver with ability to multi-task and. Uses own initiative, great management skills, strong ability to work under pressure, great ability to cope with change, and adapt to new situations.<br><br>
+              
+              # Experience in MS Word, Excel, Outlook, G suite, Dropbox, Photoshop, Shopify, HTML, CSS, JavaScript, Bootstrap, Nodejs, Express REACT, Github, Dev tools</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Web Development Boot camps
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">During my intensive boot camps, I successfully built a variety of websites, showcasing my skills in creating and designing web pages. These projects encompassed static, interactive, and responsive designs. <br><br>
+              The first project involved developing a static platform where I utilised Bootstrap, incorporating features like carousels and icons. This experience also introduced me to Content Delivery Networks (CDNs) and their integration in my websites.<br><br>
+              Next, I worked on a website for a tea company, further exploring Bootstrap and its design templates.<br><br>
+              Another website I worked on involved implementing creative design concepts using platforms like Canva. Additionally, I created a bookings and confirmation page, gaining experience in form usage and the utilisation of submit buttons.<br><br>
+              For a cake company, I designed a web page allowing customers to submit custom orders, including pictures and ideas.<br><br>
+              To showcase my design skills, I created an email template for an ice cream company. This project allowed me to experiment with different layouts, understanding the role of positioning, imagery, and fonts in capturing consumers' attention.<br>
+              In a collaborative project, I contributed to building a fruit salad builder utilising an API. This exposed me to working with JSON and asynchronous programming in JavaScript.<br><br>
+              For my final projects, I developed three games: an interactive drum kit, a dice rolling game, and a memory game. These projects involved event listeners, switch statements, callbacks, and adding animations to the websites. I further honed my JavaScript skills, including working with jQuery, higher order functions, and manipulating elements using the DOM.<br><br>
+              Throughout my journey, I gained proficiency in using the command line and uploading my work via GitHub. GitHub proved invaluable for collaboration projects, solidifying my understanding of branching and merging.<br><br>
+              By leveraging effective user interface principles, frameworks like Bootstrap, and careful attention management, I successfully completed these engaging projects.
+              .</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              JLL - Property Manager 04/04/2020 To 20/05/2022
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Responsibilities<br>
+              - Taking all calls and responding to all email enquiries and all ad hoc duties. Liaising with suppliers and contact IT when issues arose.<br>
+              - Taking control of diary management, and undertaking the day to day management of a designated portfolio of properties of 160.<br>
+              - Managing clients budget, to authorise and approve all invoices received for payment upon being satisfied on the completion of works.<br>
+              - Managing all maintenance and repair work and monitoring and controlling all regular maintenance contracts.<br>
+              - Handling demanding situations, and dealing tactfully and diplomatically when dealing with a wide range of people.<br>
+              - To liaise with all clients /contractors/surveyor’s block agents and residents’ associations as and when required<br>
+              - To supervise and monitor updating of the computerised property records system including all contract records and contractor listings and diary management.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Geckoboard - Office Manager 04/04/2019 TO 29/04/2020
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Responsibilities<br>
+              - Meeting and greeting all clients and managing all facilities, being the first point of contact for all operations issues across the company.<br>
+              - Taking all calls and responding to all email enquiries and all ad hoc duties. Meeting with all suppliers and liaising with IT when issues arose.<br>
+              - Taking control of diary management, and undertaking the day to day management.<br>
+              - Authorize and approve all invoices received for payment upon being satisfied on the completion of works.<br>
+              - Put procedures and systems in place to aid the smooth running of the department. Having meetings were necessary to enforce change or discuss issues<br>
+              - Liaising with our accounts team and ensuring that system is updated daily with reports of issues.<br>
+              - Creating a development session with colleagues in order to develop their career. Set up mental health support within the company.<br>
+              - To be responsible for the day to day monitoring and control of all aspects of health and safety and always ensure compliance with current legislation including the updating of all health and safety audit documentation in accordance with health and safety legislation. Run Health and safety introduction classes.<br>
+              - Managing all maintenance work and monitoring and controlling all regular maintenance contracts. Negotiating with suppliers and scouting for new tradesmen.<br>
+              - Conduct meetings with all clients for briefings, prepare proposals and organise shows around requests.<br>
+              - Organising vendors, managing the catering arrangements and dealing with all enquiries. Taking delegate bookings and processing payments for events.<br>
+              - Developing good relationships with the venue staff and suppliers and ensure positive ongoing liaison.<br>
+              - Meet with editors and marketing teams to proof website material and check promotional pieces are being produced to the brief.<br>
+              - Producing call sheets and schedules for the event and management of the diary.<br>
+              - Working closely with the Social Media and Blogger Outreach team to co-develop content – and writing content for the team to use.<br>
+              - Developing merchandising plan by identifying key seasonal events and trends. Contacting makers to explore ideas for new products that deliver the merchandising plan.<br>
+              - Monitoring and reporting on page views and sales to understand the effectiveness of the merchandising plan..</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Cluttons - Property Manager 20/10/17 TO 28/03/2019
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Responsibilities<br>
+              - Taking all calls and responding to all email enquiries and all ad hoc duties. Liaising with suppliers and contact IT when issues arose.<br>
+              - Taking control of diary management, and undertaking the day to day management of a designated portfolio of properties of 160.<br>
+              - Managing clients budget, to authorise and approve all invoices received for payment upon being satisfied on the completion of works.<br>
+              - Managing all maintenance and repair work and monitoring and controlling all regular maintenance contracts.<br>
+              - Handling demanding situations, and dealing tactfully and diplomatically when dealing with a wide range of people.<br>
+              - To liaise with all clients /contractors/surveyor’s block agents and residents’ associations as and when required<br>
+              - To supervise and monitor updating of the computerised property records system including all contract records and contractor listings and diary management.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Daniel Cobb - Property Manager 25/05/16 TO 20/10/17
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Responsibilities<br>
+              - Creating systems to aid the smooth running of all maintenance of properties/ diary management, handling a portfolio of 300 properties within a team.<br>
+              - Instructing contractors, obtaining quotes, raising job instructions, ensuring work is completed and adhere to budgets set.<br>
+              - Managing expenses and Budgeting ensuring targets are being set and met.<br>
+              - Ensuring compliance with health & safety including arranging gas safety and EICR testing, smoke alarm & CO2 tests and legionnaires risk assessments.<br>
+              - Conduct periodic property visits and prepare reports for landlord.<br>
+              - Key management daily/weekly audits/ ensuring that the system is daily updated.<br>
+              - Develop excellent long-term relationships with both clients, tenants, vendors and all third-party suppliers.<br>
+              - Working closely with the Managers and Negotiators to ensure clients are always given excellent advice and service.<br>
+              - Chasing outstanding rents and communicating arrears situations with landlords.<br>
+              - Arranging inventories, check-ins and check-outs and checking the reports.<br>
+              - Managing the termination process and helping to ensure managed properties are prepared to remarket.<br>
+              - Dealing and handling deposit disputes.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Islington Properties - Assistant Property Manager 18/02/15 TO 20/05/2016
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Responsibilities<br>
+              - Liaising with Landlords and Tenants and managing expectations of all aspects of property management.<br>
+              - Handling day to day property maintenance issues reported by tenants and communicating with contractors and landlords as necessary.<br>
+              - Dealing and finding solutions to landlord and tenants’ complaints.<br>
+              - Obtaining quotations for landlords for any works and approval for any larger items of work.<br>
+              - Managing the progress of maintenance issues and seeing them through to completion.<br>
+              - Managing the termination process and helping to ensure managed properties are prepared for remarketing.<br>
+              - Meeting with all clients, taking all calls, answering email queries. Carrying out all ad hoc duties.<br>
+              - Ensuring all systems are kept up to date and maintained, diary management and minute taking for all meetings.<br>
+              - Managing health and safety requirements in relation to tenancies.<br>
+              - Conducting formal management visit bi-annually and creating reports for landlords.<br>
+              - Invoice processing, budget handling Processing and receiving all rents.<br>
+              - Processing and handling all move in finances for managed and non-managed properties and invoice management.<br>
+              - Chasing outstanding rents and communicating arrears situations with landlords.<br>
+              - Arranging inventories, check-ins and check-outs and checking the reports.<br>
+              - Handling the return of tenant’s deposits after liaising with landlords. Dealing with TDS deposits disputes.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Fresh Student Living - Assistant Accommodation Manager 9/06/14 TO 13/02/2015
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Responsibilities<br>
+              - Liaising with potential residents, correctly ascertain customer needs and provide help and assistance when required.<br>
+              - Up selling the facilities and offering advice where appropriate.<br>
+              - Being the first point of contact for tenants’ queries delivering a high standard of customer service.<br>
+              - Welcoming all customers with a positive and enthusiastic manner, while conducting and showcasing Studio viewings.<br>
+              - Data entry, updating the system with developments and reviews and promoting and managing all social sites.<br>
+              - Calling tenants regarding housing arrears, charging tenants accordingly and chasing monitoring enquiries.<br>
+              - Service delivery to our customers including housekeeping and maintenance, liaising with contractors and gathering quotes.<br>
+              - Maintaining health and safety standards, and undertaking site inspections.<br>
+              - Carrying-out Competitor Market Analysis reports, editing company handbook, and ensuring all systems in place are being adhered to.<br>
+              - Demonstrating a courteous, helpful and pleasant telephone manner and dealing with all email queries.<br>
+              - Working efficiently and being a reliable and flexible team member, with the ability to remain calm working under pressure and manage changing priorities.<br>
+              - Using my initiative when demanding situations arise, and dealing tactfully and diplomatically when dealing with a wide range of people.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Previous History
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Between 2008 and 2014, I worked in various positions doing Events organising, Online Merchandising and was a sales associate and assistant manager in varied retail stores and companies.</div>
+          </div>
         </div>
       </div>
+    </div>
+      <hr>
+
+  
+      <hr>
+    
+  
+      <h2 id="REFERENCES">REFERENCES AVAILABLE ON REQUEST</h2>
   
       <hr>
   
-      <div class="row">
-        <div class="column side">
-          <h2>Training How to Deal with Difficult Peoples</h2>
-          <p>Learnt how to:</p>
-          <p></p>
-        </div>
-        
-        <div class="column middle">
-          <h2>Responsibilities</h2>
-          <ul class="responsibilities">
-            <li>Developed specific strategies for conflict resolution</li>
-            <li>Recognised classic profiles of difficult people</li>
-            <li>Pre-empt challenging situations and avoid further escalation</li>
-            <li>Developed communication skills designed to improve delivery of bad news</li>
-            <li>Recognised personality types with which you may clash</li>
-            <li>Developed assertive skills and behaviors</li>
-            <li>Handle aggressive behavior</li>
-            <li>Calm angry, upset and unresponsive individuals</li>
-          </ul>
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2>Health and Safety Training</h2>
-          <p>Learnt how to:</p>
-          <p></p>
-        </div>
-        
-        <div class="column middle">
-          <h2>Responsibilities</h2>
-          <p>Trained in the following - First Aid, Fire Marshall, DSE and Health and Safety Certified</p>
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  
-      <hr>
-  
-      <div class="row">
-        <div class="column side">
-          <h2 id="REFERENCES">REFERENCES AVAILABLE ON REQUEST</h2>
-          <p></p>
-          <p></p>
-        </div>
-        
-        <div class="column middle">
-          <h2></h2>
-          <ul class="responsibilities">
-            
-        </div>
-        
-        <div class="column side">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-  </div>
-</div>
+
 
   <!-- Footer -->
 
@@ -494,6 +401,13 @@
       <p class="text-center text-dark">© 2023 Company, Inc</p>
      
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+<script>
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl)).popover({content:"", html:true});
+</script>
 </body>
 </html>
+

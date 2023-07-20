@@ -19,5 +19,6 @@
         "titleBar.inactiveBackground": "#e3f2c199",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#E3F2C1"
+    "peacock.color": "#E3F2C1",
+    "livePreview.defaultPreviewPath": "/training.html"
 }

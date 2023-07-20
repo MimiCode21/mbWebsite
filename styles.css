@@ -1,7 +1,6 @@
 body {
     background-color: black; 
     font-family: 'Oswald', sans-serif;
-    
 }
 
 h1 {
@@ -28,35 +27,9 @@ img {
   position: absolute;
   left: 100px;
   top: 550px;
-  
-
-  
-}
-.CareerSwitchBio {
-    color: white;
-    background-color: black; 
-    font-family: 'Oswald', sans-serif;
-    text-align: left;
-    padding-left: 50%;
-    padding-right: 10%;
-    line-height: 1.6;
-    font-size: 16pt;
 }
 
-.CareerSwitch {
-    color: white;
-    position: relative;
-    text-align: center;
-    font-size: 1.5rem;
-    background-color: black;
 
-
-}
-
-#text {
-    color: white;
-    
-}
 
 .introimg {
     display: flex;
@@ -65,6 +38,17 @@ img {
 }
 
 /* Nav Bar */
+
+.nav-link {
+  color: white;
+ 
+
+}
+
+#text-center{
+  width: 100%;
+  margin-right: 10%;
+}
 
 .headbutton {
   position: relative;
@@ -77,61 +61,45 @@ img {
    background-color: #ddd;
  }
 
-.aboutbg {
-    
-}
 
-
-.trainingbg {
-    
-
-}
-.projectgbg {
-    
-
-}
-
-.hobbiesbg {
-    
-
-}
-
-.contactbg {
-    
-} 
 
 nav {
   margin-top: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #233325;
+  /* float: right;
+  margin-right: 20px; */
 }
 
-.indexsty {
-    color: white;
-    text-align: center;
-    
-}   
 
+.indexsty {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  color: white;
+  text-align: center;  
+}   
 
 a.indexsty {
     /* width: 100%; */
     /* overflow: auto; */
     text-align: center;
-    margin-left: 10%;   
+    margin-left: 10%;
+    color: white;
+
 }
 
 a.indexsty:hover {
     background-color: #000;
 }
 
-
-
 .container {
     position: relative;
     width: 100%;
     max-width: 400px;
   }
-  
 
-  
   .container .btn {
     position: absolute;
     top: 70%;
@@ -239,13 +207,6 @@ p {
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-
 /* bootsrap card */
 
 .flex-container {
@@ -255,4 +216,47 @@ p {
   height: 100vh;
 }
 
-/* Icon Footer Buttons */
+
+/* ABOUT ME PAGE*/
+.CareerSwitchBio {
+  color: white;
+  background-color: black; 
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  padding-left: 50%;
+  padding-right: 10%;
+  line-height: 1.6;
+  font-size: 16pt;
+}
+
+.CareerSwitch {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: black;
+}
+
+#text {
+  color: white;  
+}
+
+/* Resume */
+
+.accordion {
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 20px double #eceada; 
+  border-radius: 50px;
+  padding: 2%;
+}
+
+.accordion-container {
+  background-image: url("./plant.jpeg");
+  padding: 5%;
+  border-radius: 50px;
+  
+}
+/* cure color rgb(176, 188, 148); */
+
+/* #233325; */

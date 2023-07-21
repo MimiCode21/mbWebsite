@@ -6,6 +6,9 @@ let userClickedPattern = [];
 
 let level = 0;
 
+// this line initialises the game
+let started = false;
+
 // If game has not started show this
 $(document).keypress(function() {
     if (!started) {

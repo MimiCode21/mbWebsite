@@ -103,6 +103,14 @@ body {
   #REFERENCES {
     font-size: 1.5rem;
   }
+.popover {
+    background-color: #eceada;
+    padding: 25px;
+    border: 10px double #233325;
+    border-radius: 100px;
+}
 
-
+.popover-content {
+    
+}
  

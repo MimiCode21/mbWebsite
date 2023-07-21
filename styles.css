@@ -67,6 +67,7 @@ img {
     align-items: center;
     margin-top: 3%;
     width: 100%;
+    height: 50vh;
 }
 
 /* Nav Bar */
@@ -293,6 +294,17 @@ p {
 /* #233325; */
 
 @media (max-width: 600px) {
+  .introimg {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 3%;
+     width: 100%;
+     height: 40vh;
+  }
+}
+
+@media (max-width: 768px) {
   .introimg {
      display: flex;
      justify-content: center;

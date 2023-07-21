@@ -1,0 +1,36 @@
+body {
+    background-color: #eceada;
+}
+
+div.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contact-container .btn {
+    position: relative;
+    justify-items: center;
+    margin: 50px;
+    border-radius: 20px;
+    background-color: #233325;;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+
+.indexsty {
+    color: #233325;
+}
+
+a.indexsty:hover {
+    background-color: white;
+    width: auto;
+}

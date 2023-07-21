@@ -1,12 +1,15 @@
 
 // Navbar
-const navbarToggle = document.querySelector(".navbar-toggle");
+const navbarToggle = document.querySelector(".navbar-toggler");
 
-const navbarLinks = document.querySelector('.navbar-links');
-
+const navbarLinks = document.querySelector('.navbar-collapse');
+// Old code
+// const navbarLinks = document.querySelector('.navbar-links');
 navbarToggle.addEventListener("click", () => {
-    navbarLinks.classList.toggle("active");
+    navbarLinks.classList.toggle("show");
 });
+// Old code
+// navbarLinks.classList.toggle("active");
 
 
 // popovers

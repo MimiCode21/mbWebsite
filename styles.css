@@ -1,6 +1,34 @@
+/* index.css */
+.githubbtn {
+  margin-left: 43%;
+  color:#233325;
+}
+.linkedinbtn {
+  margin-left: 5%;
+  color:#233325;
+}
+.emailbtn {
+  margin-left: 5%;
+  color:#233325;
+}
+.headbutton {
+  position: relative;
+  display: inline-block;
+}
+.text-container {
+  display: inline-block;
+}
+.text-container:hover {
+  background-color: #ddd;
+}
+.navbar {
+  background-color: #233325;
+}
+
 body {
-    background-color: black; 
+    background-color: #eceada; 
     font-family: 'Oswald', sans-serif;
+    color: #233325;
 }
 
 h1 {
@@ -29,20 +57,20 @@ img {
   top: 550px;
 }
 
-
-
 .introimg {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
 }
 
 /* Nav Bar */
-
+#233325
 .nav-link {
   color: white;
- 
-
+}
+.nav-link {
+  color: white;
 }
 
 #text-center{

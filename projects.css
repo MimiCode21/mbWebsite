@@ -1,0 +1,49 @@
+body {
+    background-color: #eceada;
+    color: #233325; 
+}
+
+a.indexsty{
+    color: #233325; 
+}
+
+a.indexsty:hover {
+    background-color: white;
+    width: auto;
+}
+h1 {
+    color: #233325;;
+    padding-left: 15%;
+}
+.row {
+    margin-top: 25%;
+    padding: 10%;
+    margin-right: 15%;
+    margin-bottom: 50%;
+    margin: 2%;
+    border: 5px solid #687860;
+    border-radius: 20%;
+    background-image: url("plant.jpeg");
+}
+img {
+    height: 60%;
+}
+.card-body {
+    background-color: white;
+    color: black;   
+}
+
+hr {
+    padding-left: 10%;
+    padding-right:10%;
+}
+.col {
+    height: 500px;
+    width: 300px;
+    
+}
+a.btn.btn-dark {
+    justify-content: center;
+    align-items: center;
+    background-color: #233325;
+}

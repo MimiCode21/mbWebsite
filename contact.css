@@ -37,12 +37,28 @@ a.indexsty:hover {
 }
 
 @media (max-width: 600px) {
-     .contacrmeimg {
+ .contacrmeimg {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 3%;
+     width: 100%;
+     height: 40vh;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        width: 100%;
+        height: 100vh; */
+     }
+}
+@media (max-width: 768px) {
+    .contacrmeimg {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 3%;
         width: 100%;
-        height: 100vh;
-     }
-}
+        height: 40vh;
+    }
+  }

@@ -91,6 +91,9 @@ body {
     border: 20px double #eceada; 
     border-radius: 50px;
     padding: 2%;
+    font-stretch: expanded;
+    line-height: 1.6;
+    font-size: 150%;
   }
   
   .accordion-container {

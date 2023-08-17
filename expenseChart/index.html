@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    
+
+    <div class="row row-cols-2">
+      <div id="myBalance" class="col" width="400" height="400">
+        <div><svg id="toggleOn" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16">
+          <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>
+        </div>
+        <div class="myBalance"><h6>My balance</h6>
+        </div>
+        <h2>£921.48</h2>
+        
+        </div><br>
+        <!-- <div class="wholeGraph" width="400" height="400"></div> -->
+       
+      <div id="graph" class="col" width="400" height="400"><br>
+        
+        <div class="spending" width="400" height="400">
+          <h4>Spending - Last 7 days</h4>
+        </div>
+
+        <!-- chart -->
+        <div>
+          <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+        
+    <div class="total">
+      <p class="graphTotalText" >Total this month</p>
+      <p class="graphTotal" >$478.33</p>
+      <p class="percentage">+2.4%</p>
+      <p class="last-month">from last month</p>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
+

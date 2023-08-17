@@ -79,6 +79,27 @@ function hoverOutsimontohover(id){
  id.src = "./Hover over.png"
 } 
 
+// Experience UK
+function hoverexperiencetohover(id)
+{
+ id.src = "CFGTravelProject/images/travelweather.png"
+ 
+}   
+function hoverOutexperiencetohover(id){
+ id.src = "./Hover over.png"
+} 
+
+// Expense Chart
+function hoverexpensetohover(id)
+{
+ id.src = "expenseChart/images/expenseChart.png"
+ 
+ 
+}   
+function hoverOutexpensetohover(id){
+ id.src = "./Hover over.png"
+} 
+
 // Mummys Hub
 const mumtohoverImage = document.getElementById("mumtohover");
 mumtohoverImage.addEventListener("mouseover", function() {
@@ -158,4 +179,22 @@ simontohoverImage.addEventListener("mouseover", function() {
 });
 simontohoverImage.addEventListener("mouseout", function() {
     hoverOutsimontohover(this);
+})
+
+// Experience UK
+const experiencetohoverImage = document.getElementById("experiencetohover");
+experiencetohoverImage.addEventListener("mouseover", function() {
+    hoverexperiencetohover(this);
+});
+experiencetohoverImage.addEventListener("mouseout", function() {
+    hoverOutexperiencetohover(this);
+})
+
+// Expense Chart
+const expensetohoverImage = document.getElementById("expensetohover");
+expensetohoverImage.addEventListener("mouseover", function() {
+    hoverexpensetohover(this);
+});
+expensetohoverImage.addEventListener("mouseout", function() {
+    hoverOutexpensetohover(this);
 })

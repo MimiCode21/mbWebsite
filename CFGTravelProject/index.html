@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="travel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Public+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>EXPERIENCE U.K</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg---bs-success-bg-subtle">
+        <div class="container-fluid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+          <!-- <a class="navbar-brand" href="#">ExperienceUK</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Booking</a>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+   
+
+
+    <!-- <input type="search" name="search-bar" id="search" placeholder="Search">
+
+    <div class="navbar">
+        <div class="logo">
+            <h2>Travel</h2>
+        </div>
+        <div class="menu">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Places</a>
+                <a href="#">Contact</a>
+                <a href="#">Bookings</a>
+            </li>
+        </ul>
+        </div>
+    <div class="signup">
+        <a href="#">Sign Up / Login</a>
+    </div>
+</div> -->
+
+ <!-- <div class="heading"> -->
+    <!-- <h1>Experience UK </h1> -->
+    <!-- </div> -->
+    <!-- <div class="position-relative p-5 text-center text-muted bg-body">
+        <div class="weatherBox" >
+            <img class="wImage" src="./images/wImage.jpeg" alt="image of countryside">
+        </div>
+        
+      </div> -->
+      <!-- Current weather app -->
+      <!-- <div class="col">
+        <div class="card shadow-sm">
+            <a href="https://www.getyourguide.com/wales-l624/"><img class="cityImages" src="https://i2-prod.walesonline.co.uk/incoming/article26416092.ece/ALTERNATES/s615/0_MWL_LC_080323_Llanberis-Snowdonia-FOR-EDITORIAL-USE-WITH-THIS-STORY-ONLY-02.png" width="100%" height="225" alt="Wales attractions"></a>
+          <div class="card-body">
+            <p class="card-text">Cardiff</p>
+            <p class="card-text2">Click the image to discover more of what Wales has to offer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+<div class="bigHeader">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <div class="weather" width="700" height="500">
+              <!-- <img src="./images/cloud.svg"  class="weather-icon"> -->
+              <!-- weather APP -->
+              <h1 class="temp">15°c</h1>
+              <h2 class="city">London</h2>
+              <div class="details">
+                  <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moisture" viewBox="0 0 16 16">
+                      <path d="M13.5 0a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V7.5h-1.5a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V15h-1.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 .5-.5V.5a.5.5 0 0 0-.5-.5h-2zM7 1.5l.364-.343a.5.5 0 0 0-.728 0l-.002.002-.006.007-.022.023-.08.088a28.458 28.458 0 0 0-1.274 1.517c-.769.983-1.714 2.325-2.385 3.727C2.368 7.564 2 8.682 2 9.733 2 12.614 4.212 15 7 15s5-2.386 5-5.267c0-1.05-.368-2.169-.867-3.212-.671-1.402-1.616-2.744-2.385-3.727a28.458 28.458 0 0 0-1.354-1.605l-.022-.023-.006-.007-.002-.001L7 1.5zm0 0-.364-.343L7 1.5zm-.016.766L7 2.247l.016.019c.24.274.572.667.944 1.144.611.781 1.32 1.776 1.901 2.827H4.14c.58-1.051 1.29-2.046 1.9-2.827.373-.477.706-.87.945-1.144zM3 9.733c0-.755.244-1.612.638-2.496h6.724c.395.884.638 1.741.638 2.496C11 12.117 9.182 14 7 14s-4-1.883-4-4.267z"/>
+                    </svg>
+                      <!-- <img src="images/humidity.png" alt=""> -->
+                  </div>
+                  <p class="humidity">50%</p>
+                  <p>Humidity</p>
+                  <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wind" viewBox="0 0 16 16">
+                      <path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                      <!-- <img src="images/wind.png" alt=""> -->
+                  </div>
+                  <p class="wind">50km/h</p>
+                  <p>Wind-Speed</p>
+              </div>
+          </div>
+        </div> 
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Experience UK</h1>
+          <p class="lead">Rich in heritage and history, the United Kingdom offers a delightful mix of bustling modern cities and charming ancient villages to explore.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="./weather.html" class="btn btn-success my-2">Check Weather</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- end of weather app -->
+    
+    <br><br><br><br>
+    <img src="./images/london.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+  
+  
+
+      <!-- <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Experience UK</h1>
+            <p class="lead text-body-secondary">Rich in heritage and history, the United Kingdom offers a delightful mix of bustling modern cities and charming ancient villages to explore.</p>
+            <p>
+                <br><br>
+                <p class="travelD">Check what the weather is like in your travel destination</p>
+              <a href="./index.html" class="btn btn-success my-2">Check Weather</a> -->
+              <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+            <!-- </p>
+          </div>
+        </div>
+      </section> -->
+      <!-- <div class="weather">Check what the weather is like in your travel destination</div>
+        <div class="text-center">
+            <a href="./index.html">
+        <button type="button" class="btn btn-success">Travel Weather</button></a>
+        </div> -->
+
+
+        <!-- <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <div class="overflow-hidden" style="max-height: 30vh;">
+              <div class="container px-5">
+                <img src="./images/london.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="1000" height="500" loading="lazy">
+              </div>
+            </div>
+          </div> -->
+
+<!-- <div class="carousel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/wImage.jpeg" class="d-block w-100" alt="country side" height="800" width="1000">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/castle.webp" class="d-block w-100" alt="castle in the UK">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/london.jpeg" class="d-block w-100" alt="big ben scenery">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> -->
+
+      <!-- travel destination cards -->
+<main>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+                <a href="https://www.getyourguide.co.uk/-l210/?cmp=ga&cq_src=google_ads&cq_cmp=15511474781&cq_con=130986776876&cq_term=liverpool+for+tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15511474781&adgroup_id=130986776876&target_id=aud-1393039794940%3Akwd-54113326574&loc_physical_ms=9046629&match_type=e&ad_id=569326980473&keyword=liverpool+for+tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJh-Ci6gCxmO__LQT4Ki8cB8St04oQL41c8x8MXeMCpzacV-3nfSvsaAoSjEALw_wcB&visitor-id=LDJAERCBXK5V81TJDTTSHHSJWGMZ599F&locale_autoredirect_optout=true"><img class="cityImages" src="https://culturecdn.fra1.cdn.digitaloceanspaces.com/2019/03/Tall-Ships-DSCF9081-Pete-Carr.jpg" width="100%" height="225" alt="Liverpool attractions"></a>
+              <div class="card-body">
+                <p class="card-text">Liverpool</p>
+                <p class="card-text2">Click the image to discover more of what Liverpool has to offer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <a href="https://www.getyourguide.com/-l57/?cmp=ga&cq_src=google_ads&cq_cmp=15508177171&cq_con=130986772796&cq_term=london%20for%20tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15508177171&adgroup_id=130986772796&target_id=aud-1393039794940:kwd-823303161&loc_physical_ms=9046629&match_type=e&ad_id=569326980236&keyword=london%20for%20tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buIrxvLL_Y71oXP5ZaTnLhCDYu2JcqNFDPVWF1YZ2A6xK5fPQkyCEPgaAuTXEALw_wcB"><img class="cityImages" src="https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg" width="100%" height="225" alt="London attractions"></a>
+              <div class="card-body">
+                <p class="card-text">London</p>
+                <p class="card-text2">Click the image to discover more of what London has to offer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <a href="https://www.getyourguide.com/-l183630/-tc1146/?cmp=bing&campaign_id=434111531&adgroup_id=1255642901303996&target_id=dat-2330277456373266:loc-188&match_type=b&ad_id=78477841569431&msclkid=b98f61a78a4d133239e6056ed2a4896f&loc_physical_ms=131295&feed_item_id=&keyword=getyourguide.com&partner_id=CD951&utm_medium=paid_search&utm_source=bing&utm_campaign=ct%3Ddsa%7Cln%3D29%3Aen%7Ctc%3Duk&utm_term=getyourguide.com&gclsrc=3p.ds&utm_content=ct%3Ddsa%7Cfn%3Df1"><img class="cityImages" src="https://lh3.googleusercontent.com/p/AF1QipOFSwi9MiEcHrB6Aut_zIbo_apmZZ15_gXJAKr3=s680-w680-h510" width="100%" height="225" alt="Edinburgh attractions"></a>
+              <div class="card-body">
+                <p class="card-text">Edinburgh</p>
+                <p class="card-text2">Click the image to discover more of what Edinburgh has to offer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+                <a href="https://www.getyourguide.com/-l441/?cmp=ga&cq_src=google_ads&cq_cmp=15505291656&cq_con=130986776596&cq_term=oxford%20for%20tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15505291656&adgroup_id=130986776596&target_id=aud-1393039794940:kwd-14110301236&loc_physical_ms=9046629&match_type=e&ad_id=569326980641&keyword=oxford%20for%20tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buKqMo7gpIHnfwe6xeArpJozNO2Pc0rW1MR1xnRiUVzK4ZRDPsHHXhgaAtUNEALw_wcB"><img class="cityImages" src="https://media.timeout.com/images/105809441/1920/1080/image.jpg" width="100%" height="225" alt="Oxford attractions"></a>
+              <div class="card-body">
+                <p class="card-text">Oxford</p>
+                <p class="card-text2">Click the image to discover more of what Oxford has to offer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <a href="https://www.getyourguide.com/-l1128/?cmp=ga&cq_src=google_ads&cq_cmp=15511466609&cq_con=130986773436&cq_term=manchester%20for%20tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15511466609&adgroup_id=130986773436&target_id=aud-1393039794940:kwd-14359166896&loc_physical_ms=9046629&match_type=e&ad_id=569326980197&keyword=manchester%20for%20tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buLL0AO7kY_hflCDsRkCQkGLd2WcD27JokQxghyP8GXB89D2G_ROmN8aAr2KEALw_wcB"><img class="cityImages" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcT7NdFrWA1QoMPCzuguc4xhhtpU3EMvVg-pXJYZ-BfQnI2o6o9yNjHOb5OnRjo4uoyq" width="100%" height="225" alt="Manchester attractions"></a>
+              <div class="card-body">
+                <p class="card-text">Manchester</p>
+                <p class="card-text2">Click the image to discover more of what Manchester has to offer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <a href="https://www.getyourguide.com/wales-l624/"><img class="cityImages" src="https://i2-prod.walesonline.co.uk/incoming/article26416092.ece/ALTERNATES/s615/0_MWL_LC_080323_Llanberis-Snowdonia-FOR-EDITORIAL-USE-WITH-THIS-STORY-ONLY-02.png" width="100%" height="225" alt="Wales attractions"></a>
+              <div class="card-body">
+                <p class="card-text">Cardiff</p>
+                <p class="card-text2">Click the image to discover more of what Wales has to offer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+
+
+   
+
+
+        
+
+    
+
+        
+
+        <!-- <div class="history">
+        <p> Rich in heritage and history,
+            <br>the United Kingdom has many bustling modern
+            <br>cities and ancient sleepy villages to visit </p>
+            <br><br>
+            <h3> Click on the cities to learn more</h3>
+        </div>
+
+        <div class="tours">
+        <div class="places">
+            <h2>Liverpool</h2>
+           <a href="https://www.getyourguide.co.uk/-l210/?cmp=ga&cq_src=google_ads&cq_cmp=15511474781&cq_con=130986776876&cq_term=liverpool+for+tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15511474781&adgroup_id=130986776876&target_id=aud-1393039794940%3Akwd-54113326574&loc_physical_ms=9046629&match_type=e&ad_id=569326980473&keyword=liverpool+for+tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJh-Ci6gCxmO__LQT4Ki8cB8St04oQL41c8x8MXeMCpzacV-3nfSvsaAoSjEALw_wcB&visitor-id=LDJAERCBXK5V81TJDTTSHHSJWGMZ599F&locale_autoredirect_optout=true" target="_blank"></a>
+            <img class="cityImages" src="https://culturecdn.fra1.cdn.digitaloceanspaces.com/2019/03/Tall-Ships-DSCF9081-Pete-Carr.jpg" style=width:150px; height:200px; alt="Liverpool attractions">
+        </div>
+       <div class="places">
+        <h2>London</h2>
+        <a href="https://www.getyourguide.com/-l57/?cmp=ga&cq_src=google_ads&cq_cmp=15508177171&cq_con=130986772796&cq_term=london%20for%20tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15508177171&adgroup_id=130986772796&target_id=aud-1393039794940:kwd-823303161&loc_physical_ms=9046629&match_type=e&ad_id=569326980236&keyword=london%20for%20tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buIrxvLL_Y71oXP5ZaTnLhCDYu2JcqNFDPVWF1YZ2A6xK5fPQkyCEPgaAuTXEALw_wcB" target="_blank"></a>
+            <img class="cityImages" src="https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg"style=width:150px; height:200px; alt="London skyline">
+       </div>
+        <div class="places">
+        <h2>Edinburgh</h2>
+        <a href="https://www.getyourguide.com/-l183630/-tc1146/?cmp=bing&campaign_id=434111531&adgroup_id=1255642901303996&target_id=dat-2330277456373266:loc-188&match_type=b&ad_id=78477841569431&msclkid=b98f61a78a4d133239e6056ed2a4896f&loc_physical_ms=131295&feed_item_id=&keyword=getyourguide.com&partner_id=CD951&utm_medium=paid_search&utm_source=bing&utm_campaign=ct%3Ddsa%7Cln%3D29%3Aen%7Ctc%3Duk&utm_term=getyourguide.com&gclsrc=3p.ds&utm_content=ct%3Ddsa%7Cfn%3Df1" target="_blank"></a>
+            <img class="cityImages" src="https://lh3.googleusercontent.com/p/AF1QipOFSwi9MiEcHrB6Aut_zIbo_apmZZ15_gXJAKr3=s680-w680-h510"style=width:150px; height:200px; alt="Edinburgh attractions">
+            <br>
+            <br>
+        </div>
+        <div class="places">
+            <h2>Oxford</h2>
+            <a href="https://www.getyourguide.com/-l441/?cmp=ga&cq_src=google_ads&cq_cmp=15505291656&cq_con=130986776596&cq_term=oxford%20for%20tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15505291656&adgroup_id=130986776596&target_id=aud-1393039794940:kwd-14110301236&loc_physical_ms=9046629&match_type=e&ad_id=569326980641&keyword=oxford%20for%20tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buKqMo7gpIHnfwe6xeArpJozNO2Pc0rW1MR1xnRiUVzK4ZRDPsHHXhgaAtUNEALw_wcB" target="_blank"></a></li>
+            <img class="cityImages" src="https://media.timeout.com/images/105809441/1920/1080/image.jpg" style=width:150px; height:200px; alt="Manchester attractions">
+            <br>
+            <br>
+            </div>
+        
+        <div class="places">
+            <h2>Manchester</h2>
+        <a href="https://www.getyourguide.com/-l1128/?cmp=ga&cq_src=google_ads&cq_cmp=15511466609&cq_con=130986773436&cq_term=manchester%20for%20tourists&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15511466609&adgroup_id=130986773436&target_id=aud-1393039794940:kwd-14359166896&loc_physical_ms=9046629&match_type=e&ad_id=569326980197&keyword=manchester%20for%20tourists&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buLL0AO7kY_hflCDsRkCQkGLd2WcD27JokQxghyP8GXB89D2G_ROmN8aAr2KEALw_wcB" target="_blank"></a></li>
+        <img class="cityImages" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcT7NdFrWA1QoMPCzuguc4xhhtpU3EMvVg-pXJYZ-BfQnI2o6o9yNjHOb5OnRjo4uoyq"style=width:150px; height:200px; alt="Manchester attractions">
+        <br>
+        <br>
+        </div>
+    </div>
+     -->
+    
+    <!-- </div>
+</div> -->
+<!-- <a href="#" class="check-weather-button">
+    Check weather for your Destination
+</a> -->
+    <!-- </div> -->
+
+    <!-- jyhoti api -->
+  <script>
+      const apiKey="90e4fa4300d270a86d778a63324ef0a3";
+      const apiUrl="https://api.openweathermap.org/data/2.5/weather?&units=metric&q="
+      const searchBox=document.querySelector(".search input");
+      const searchBtn=document.querySelector(".search button");
+      const weatherIcon=document.querySelector(".weather-icon");
+      async function checkWeather(city){
+      const response= await fetch(apiUrl+ city +`&appid=${apiKey}`);
+      if(response.status == 404){
+          document.querySelector(".error").style.display = "block";
+          document.querySelector(".weather").style.display = "none";
+      }
+      else{
+      var data= await response.json();
+      document.querySelector(".city").innerHTML=data.name;
+      document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+"°c";
+      document.querySelector(".humidity").innerHTML=data.main.humidity+ "%";
+      document.querySelector(".wind").innerHTML=data.wind.speed + "km/h" ;
+if(data.weather[0].main == "Clouds"){
+  weatherIcon.src="./images/cloud-fill.svg";
+  // weatherIcon.src="images/clouds.png";
+}
+else if(data.weather[0].main == "Clear"){
+  weatherIcon.src="./images/brightness-high-fill.svg";
+  // weatherIcon.src="images/clear.png";
+}
+else    if(data.weather[0].main == "Rain"){
+  weatherIcon.src="./images/cloud-rain-fill.svg";
+  // weatherIcon.src="images/rain3.png";
+}
+else if(data.weather[0].main == "Drizzle"){
+  weatherIcon.src="./images/cloud-drizzle-fill.svg";
+  // weatherIcon.src="images/drizzle.png";
+}
+else if(data.weather[0].main == "Mist"){
+  weatherIcon.src="./images/cloud-sleet-fill.svg";
+  // weatherIcon.src="images/mist.png";
+}
+document.querySelector(".weather").style.display = "block";
+document.querySelector(".error").style.display = "none";
+      }
+  }
+  // modified code so that it shows the current weather of london as default once the page loads
+  document.addEventListener("DOMContentLoaded", () => {
+    checkWeather("London");
+  });
+  searchBtn.addEventListener("click",()=>{
+      checkWeather(searchBox.value);
+  })
+  
+  </script>
+
+
+
+
+
+    <!--  -->
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Services</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Places</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Booking</a></li>
+        </ul>
+        <p class="text-center text-light">© 2023 Code First Girls group 3</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- (Not automatically expanded because 7 MB is too large. You can expand it anyway or open it in a new window.) -->
+
+
+
+

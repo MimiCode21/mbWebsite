@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+img {
+    display: block;
+    padding-bottom: 10%;
+}
+#myBalance {
+    display: inline-block;
+    justify-content: center;
+    background-color: coral;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+.container {
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#toggleOn {
+    display: inline;
+    margin-left: 90%;
+}
+/* path {
+    display: inline;
+} */
+
+/* .bi {
+    margin-left: 75%;
+    margin-top: 2%;
+} */
+
+/* main graph body */
+.wholeGraph {
+    background-color: white;
+    padding-top: 5%;
+    /* margin-left: 5%; */
+    /* width: 400; 
+    height: 400; */
+}
+
+.spending {
+    background-color: white;
+    padding: 5%;
+}
+#graph {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 40%;
+    border-radius: 5px;
+    border-radius: 10px;
+    margin-right: 5%;
+    
+}
+
+.percentage {
+    margin-left: 85%;
+}
+
+/* Bottom box */
+.last-month {
+    margin-left: 73%;
+    padding-bottom: 5%;
+}
+
+#myChart {
+    background-color: white;
+    color: #D68060;
+    /* width: 400; 
+    height: 400; */
+    padding-top: 20%;
+       
+}
+
+.total {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.graphTotalText {
+    padding-top: 5%;
+    margin-left: 5%;
+
+}
+
+.graphTotal {
+    margin-left: 5%;
+
+}

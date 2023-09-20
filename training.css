@@ -1,9 +1,15 @@
 body {
-    background-color: #eceada;
+  background-image: url("./pawel-czerwinski-95QNbCkVERM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Righteous', cursive;
+    /* background-color: #eceada; */
     /* background-color: #eceada; */
     color: #233325; 
   }
-
+a.nav-item.nav-link {
+  color: #233325;
+}
   a.indexsty{
       color: #233325; 
   }
@@ -68,7 +74,7 @@ body {
 
   .background {
       border: 1px solid #eceada;
-      background-color: #eceada;
+      /* background-color: #eceada; */
       padding-left: 5%;
       padding-right: 5%;
       margin-bottom: 5%;
@@ -82,13 +88,13 @@ body {
 
   .btn {
     margin-top: 5%;
-    background-color: #233325;
+    background-color: #0A0106;
     color: #ffffff;
   }
   .accordion {
-    margin-left: 20%;
-    margin-right: 20%;
-    border: 20px double #eceada; 
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* border: 20px double pink;  */
     border-radius: 50px;
     padding: 2%;
     font-stretch: expanded;
@@ -97,7 +103,8 @@ body {
   }
   
   .accordion-container {
-    background-image: url("./plant.jpeg");
+    background-image: url("");
+    background-size: contain, cover;
     padding: 5%;
     border-radius: 50px;
     
@@ -120,10 +127,10 @@ body {
     font-size: 1.5rem;
   }
 .popover {
-    background-color: #eceada;
+    background-color: white;
     padding: 25px;
-    border: 10px double #233325;
-    border-radius: 100px;
+    /* border: 10px double #233325; */
+    border-radius: 10px;
 }
 
 .popover-content {

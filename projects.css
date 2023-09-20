@@ -1,7 +1,9 @@
 body {
-    background-color: #eceada;
+    background-color: white;
     color: #233325; 
 }
+
+/* #eceada */
 
 a.indexsty{
     color: #233325; 
@@ -14,6 +16,7 @@ a.indexsty:hover {
 h1 {
     color: #233325;;
     padding-left: 15%;
+    
 }
 .row {
     margin-top: 25%;

@@ -1,0 +1,64 @@
+
+body {
+    background-image: url('./lum3n--RBuQ2PK_L8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    font-family: 'Righteous', cursive;
+}
+.indexsty {
+    color: #233325;
+}
+
+a.nav-item.nav-link {
+    color: #233325;
+}
+/* a.indexsty:hover {
+    background-color: white;
+} */
+h5 {
+    text-align: center;
+}
+
+h1{
+    font-size: 10rem;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.boldP {
+    font-size: 1.5rem;
+    color: pink;
+}
+
+p {
+    font-size: 20px;
+}
+
+.profile {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50%;
+}
+
+.row {
+    margin-top: 10%;
+    margin-left: 15%;
+    /* margin-right: 5%; */
+
+}
+
+.fw-normal {
+    margin-top: 3%;
+    
+}
+
+.contact-container {
+    margin-top: 10%;
+    margin-left: 35%;
+    
+}
+
+a.btn.btn-dark.btn-md.col-sm-2.col-md-2.active {
+    background-color: #233325;
+}
+

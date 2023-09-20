@@ -1,104 +1,102 @@
 // Mummys Hub
 function hovermumtohover(id)
 {
- id.src = "./Mumuyshubone.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutmumtohover(id){
- id.src = "./Hover over.png"
+ id.src = "./Mumuyshubone.png"
 }
 
 // Tea Sanctuary
 function hoverteatohover(id)
 {
- id.src = "./Teasanctuaryone.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutteatohover(id){
- id.src = "./Hover over.png"
+ id.src = "./Teasanctuaryone.png"
 }   
 
 // Ramen Bar
 function hoverramentohover(id)
 {
- id.src = "./Ramenone.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutramentohover(id){
- id.src = "./Hover over.png"
+ id.src = "./Ramenone.png"
 } 
 
 // Sweet Tooth
 function hoversweettohover(id)
 {
- id.src = "./sweettoothss1.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutsweettohover(id){
- id.src = "./Hover over.png"
+ id.src = "./sweettoothss1.png"
 } 
 
 // Fruity API
 function hoverfruitytocover(id)
 {
- id.src = "./fruitapifruit.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutfruitytocover(id){
- id.src = "./Hover over.png"
+ id.src = "./fruitapifruit.png"
 } 
 
 // CreamIce Email Template
 function hovercreamtohover(id)
 {
- id.src = "./CreamIceSS.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutcreamtohover(id){
- id.src = "./Hover over.png"
+ id.src = "./CreamIceSS.png"
 } 
 
 // Drum Kit
 function hoverdrumtohover(id)
 {
- id.src = "drumKit/images/drumkit img.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutdrumtohover(id){
- id.src = "./Hover over.png"
+ id.src = "drumKit/images/drumkit img.png"
 } 
 
 // Roll The Dice
 function hoverdicetohover(id)
 {
- id.src = "theDiceGame/images/rollTheDice.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutdicetohover(id){
- id.src = "./Hover over.png"
+ id.src = "theDiceGame/images/rollTheDice.png"
 } 
 
 // The Simon Game
 function hoversimontohover(id)
 {
- id.src = "theSimonGame/theSimonGame.png"
+ id.src = "./Hover over.png"
 }   
 function hoverOutsimontohover(id){
- id.src = "./Hover over.png"
+ id.src = "theSimonGame/theSimonGame.png"
 } 
 
 // Experience UK
 function hoverexperiencetohover(id)
 {
- id.src = "CFGTravelProject/images/travelweather.png"
- 
+ id.src = "./Hover over.png"
 }   
 function hoverOutexperiencetohover(id){
- id.src = "./Hover over.png"
+ id.src = "CFGTravelProject/images/travelweather.png"
 } 
 
 // Expense Chart
 function hoverexpensetohover(id)
 {
- id.src = "expenseChart/images/expenseChart.png"
- 
- 
+ id.src = "./Hover over.png"
 }   
 function hoverOutexpensetohover(id){
- id.src = "./Hover over.png"
+ id.src = "expenseChart/images/expenseChart.png"
 } 
+
 
 // Mummys Hub
 const mumtohoverImage = document.getElementById("mumtohover");

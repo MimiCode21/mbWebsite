@@ -1,5 +1,5 @@
 body{
-    background-image: url("../FRUITBG.png");
+    background-image: url("./jodie-morgan-Nyyd05Vd7sk-unsplash.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,19 +8,23 @@ body{
 }
 
 h1 {
-    color: #DFE8CC;
+    color: black;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 h2 {
-    color: #DFE8CC;
+    color: black;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 
+}
+
+section#nutritionSection {
+    text-align: center;
 }
 
 label{
-    background-color: white;
+    background-color: black;
 }
 
 #fruitSection li:hover:after{
@@ -47,16 +51,16 @@ label {
     border-style: none;
     border-radius: 16px;
     padding: 1%;
-    background-color: #DFE8CC;
-    border: 5px solid #DFE8CC;
+    background-color: white;
+    border: 5px solid white;
 
 }
 
 input#fruitInput {
     
-    background-color: #DFE8CC;
+    background-color: white;
     border-radius: 16px;
-    border: 5px solid #DFE8CC;
+    border: 5px solid white;
     
 
 }
@@ -65,7 +69,7 @@ input {
     border-style: none;
     border-radius: 16px;
     padding: 1%;
-    background-color: #DFE8CC;
+    background-color: white;
     margin-left: 1%;
 }
 
@@ -78,7 +82,7 @@ img {
 }
 
 li {
-    color: #DFE8CC;
+    color: black;
     padding: 1%;
     list-style-type: none;
     padding-left: 10%;
@@ -87,7 +91,7 @@ li {
 }
 
 p {
-    color: #DFE8CC;
+    color: black;
     padding-left: 10%;
     
     font-size: 1.5rem;

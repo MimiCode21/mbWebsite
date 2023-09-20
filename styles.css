@@ -1,6 +1,83 @@
+/* New Profile Index page CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* #eceada */
+body { 
+background-image: url("./evie-s-bSVGnUCk4tk-unsplash.jpg");
+background-repeat: no-repeat;
+background-size: contain, cover;
+/* background-color: white;  */
+font-family: 'Righteous', cursive;
+color: rgb(10, 1, 6);
+
+}
 /* index.css */
+
+/* Heading */
+
+h1#title.display-3.fw-bold {
+
+margin-top: 25%;
+}
+
+.icon_buttons {
+margin-bottom: 15%;
+}
+.col-md-6p-lg-5mx-auto-my-5 {
+margin-top: 60%;
+}
+div.h1.fw-bold {
+
+font-family: 'Righteous', cursive;
+font-size: 3rem;
+position: relative;
+animation: mymove 5s infinite;
+
+}
+{
+margin-top: 50%;
+
+}
+div {
+/* width: 100px;
+height: 50px;
+background-color: red;
+font-weight: bold; */
+
+}
+
+#title {animation-timing-function: ease-in;}
+
+
+@keyframes mymove {
+from {left: 0px;}
+to {left: 300px;}
+}
+
+.text-muted {
+font-family: 'Righteous', cursive;
+}
+
+a.icon-link {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Tech Stack */
+
+h3.techStack {
+  margin-left: 10%;
+  text-decoration: none;
+  margin-bottom: 10%;
+  font-size: 20px;
+}
+
+/* Social Media links */
 .githubbtn {
-  margin-left: 43%;
+  margin-left: 41%;
   color:#233325;
 }
 .linkedinbtn {
@@ -21,290 +98,75 @@
 .text-container:hover {
   background-color: #ddd;
 }
-.navbar {
+/* .navbar {
   background-color: #233325;
-}
+} */
 
-body {
-    background-color: #eceada; 
-    font-family: 'Oswald', sans-serif;
-    color: #233325;
-}
 
+/* 
+.col {
+  display: inline-block;
+  height: 60vh;
+  width: 400px;
+  margin-left: 8%;
+}
+ */
 h1 {
     padding-top: 10%;
     font-size: 3rem;
-}
-h2 {
-    color: white;
-    padding-top: 10%;
-    padding-left: 5%;
-}
-
-hr {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-img {
-  padding-bottom: 3%;
-}
-.careerChange {
-  position: absolute;
-  left: 100px;
-  top: 550px;
-}
-
-.introimg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3%;
-  margin-left: auto;
-  margin-right: auto;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%; */
-    /* old code */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-    width: 100%;
-    height: 50vh; */
-   
-}
-
-/* Nav Bar */
-#233325
-.nav-link {
-  color: white;
-}
-.nav-link {
-  color: white;
-}
-
-#text-center{
-  width: 100%;
-  margin-right: 10%;
-}
-
-.headbutton {
-  position: relative;
-  display: inline-block;
- }
- .text-container {
-  display: inline-block;
- }
- .text-container:hover {
-   background-color: #ddd;
- }
-
-nav {
-  margin-top: 3%;
-  margin-right: 5%;
-  margin-left: 5%;
-  background-color: #233325;
-  /* float: right;
-  margin-right: 20px; */
-}
-
-
-.indexsty {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-  color: white;
-  text-align: center;  
-}   
-
-a.indexsty {
-    /* width: 100%; */
-    /* overflow: auto; */
-    text-align: center;
     margin-left: 10%;
-    color: white;
+}
+.projectFolder {
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 15%;  
+}
+/* p.card-text {
+  font-size: 12px;
 
 }
 
-a.indexsty:hover {
-    background-color: #000;
+.card {
+  display: inline-block;
+
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-  }
-
-  .container .btn {
-    position: absolute;
-    top: 70%;
-    left: 280%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: black;
-    color: #f1f1f1;
-    font-size: 15px;
-    padding: 5px 50px;
-    border: none;
-    cursor: pointer;
-    border-radius: 40px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    
-  }
-  
-  .container .btn:hover {
-    background-color: white;
-    color: black;
-  }
-
- .responsibilities {
-    color: white;
- }
-
-.header {
-    padding-top: 10%;
-}
- 
-* {
-  box-sizing: border-box;
+.row {
+margin-left: 13%;
 }
 
-body {
-  margin: 0;
+div.card {
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  width: 500px;
+  /* height: 50vh; */
 }
 
 
-/* Style the header */
-.header {
-  background-color: black;
-  color: white;
-  padding: 20px;
-  text-align: center;
+.card-title {
+  height: 100px;
+
 }
 
+.card-text {
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: black;
-  color: white;
-  text-align: center;
-  
+
 }
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  padding-left: 5%;
-  text-decoration: none;
-  
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
+.card-link {
   color: black;
-  
-}
-
-p {
-  
-  padding-left: 5%;
- 
-}
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 5px;
-}
-
-/* Left and right column */
-.column.side {
-  width: 25%;
-  padding-left: 5%;
-}
-
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* bootsrap card */
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+} */
 
 
-/* ABOUT ME PAGE*/
-.CareerSwitchBio {
-  color: white;
-  background-color: black; 
-  font-family: 'Oswald', sans-serif;
-  text-align: left;
-  padding-left: 50%;
-  padding-right: 10%;
-  line-height: 1.6;
-  font-size: 16pt;
-}
-
-.CareerSwitch {
-  color: white;
-  position: relative;
-  text-align: center;
-  font-size: 1.5rem;
-  background-color: black;
-}
-
-#text {
-  color: white;  
-}
-
-/* Resume */
 
 
-/* cure color rgb(176, 188, 148); */
+/* END OF CSS */
 
-/* #233325; */
 
-@media (max-width: 600px) {
-  .introimg {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 3%;
-     width: 100%;
-     height: 40vh;
-  }
-}
 
-@media (max-width: 768px) {
-  .introimg {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 3%;
-     width: 100%;
-  }
-}
+

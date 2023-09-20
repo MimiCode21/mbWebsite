@@ -1,8 +1,23 @@
 //select element from html file
-const fruitForm = document.querySelector("#inputSection form")
+const fruitForm = document.querySelector("#fruitForm") //od cd #inputSection form
+const caloriesDisplay = document.querySelector("#calories"); // Nw added cd
 
 const fruitNutrition = document.querySelector("#nutritionSection p")
 let cal = 0
+
+// Add an event listener to the form for submitting fruit vw cd
+fruitForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const fruitInput = e.target.fruitInput.value;
+    if (fruitInput) {
+        const fruitData = await fetchFruitData(fruitInput);
+        if (fruitData) {
+            addFruit(fruitData);
+            e.target.fruitInput.value = ""; // Clear the input field
+        }
+    }
+});
+//abv nw cd
 
 const fruitList = document.querySelector("#fruitSection ul")
 const fruitImageList = document.querySelector(".fruitImage ul")

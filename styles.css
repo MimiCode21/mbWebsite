@@ -145,7 +145,7 @@ div.card {
 .card-body {
   width: 500px;
   /* height: 50vh; */
-}
+/* } */
 
 
 .card-title {
@@ -160,8 +160,27 @@ div.card {
 
 .card-link {
   color: black;
-} */
+  text-decoration: none;
+} 
 
+/* About Me */
+
+.aboutMe {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 15px;
+}
+
+p.lead {
+  font-size: 17px;
+
+}
+
+/* Portfolio Project */
+
+/* a:card-link {
+  text-decoration: none;
+} */
 
 
 

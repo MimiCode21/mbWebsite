@@ -123,19 +123,25 @@ a.nav-item.nav-link {
     padding: 1%;
   }
 
+  .accordion-body {
+    font-size: 12px;
+
+  }
+
+
   #REFERENCES {
     font-size: 1.5rem;
   }
-.popover {
+/* .popover {
     background-color: white;
     padding: 25px;
-    /* border: 10px double #233325; */
+    border: 10px double #233325;
     border-radius: 10px;
 }
 
 .popover-content {
 
-}
+} */
  
 @media (max-width: 600px) {
     .background {

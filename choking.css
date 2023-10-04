@@ -1,0 +1,26 @@
+body {
+    color: #34495E;
+    font-family: 'ubuntu';
+    text-align: center;
+    background-color: white;
+
+}
+
+.chokingArticleHeader{
+    text-align: center;
+}
+
+.div.d-md-flex-md-equal.w-100.my-md-3.ps-md-3 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.bg-body-tertiary.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden {
+    background-color: white;
+    
+}

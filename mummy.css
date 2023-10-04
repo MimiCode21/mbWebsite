@@ -185,6 +185,16 @@ button.btn.btn-outline-dark.btn-lg.col-12 {
   color: white;
 }
 
+a.btn.btn-outline-dark.btn-lg.col-12 {
+  background-color: #34495E;
+  color: white;
+}
+
+a.nav-link.button.type\={
+  background-color: #34495E;
+  color: white;
+}
+
 
 /* Footer */
 
@@ -219,4 +229,27 @@ button.btn.btn-outline-dark.btn-lg.col-12 {
     position: static;
 
   }
+}
+
+a.social-icon.fa-brands.fa-twitter {
+  color: #34495E;
+  text-decoration: none;
+}
+
+a.social-icon.fa-brands.fa-facebook {
+  color: #34495E;
+  text-decoration: none;
+
+}
+
+a.social-icon.fa-brands.fa-instagram {
+  color: #34495E;
+  text-decoration: none;
+
+}
+
+a.social-icon.fa-solid.fa-envelope {
+  color: #34495E;
+  text-decoration: none;
+
 }

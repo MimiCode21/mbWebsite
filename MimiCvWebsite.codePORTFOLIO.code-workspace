@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../babySanctuary/The Baby Sanctuary"
 		}
 	],
 	"settings": {

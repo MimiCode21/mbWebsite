@@ -61,3 +61,24 @@ div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+
+/* Zoom in in images */
+
+
+.zoom {
+    transition: transform .2s;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .zoom:hover {
+    padding: 50px;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    z-index: 1;
+  }
+
+

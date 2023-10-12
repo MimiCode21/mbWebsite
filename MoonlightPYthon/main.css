@@ -1,0 +1,119 @@
+body {
+    background-color: #000000;
+    font-family: 'Abel', sans-serif;
+
+  }
+  
+  h1 {
+    font-family: 'Moirai One', cursive;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 8rem;
+    font-family: "Moirai One", cursive;
+    text-align: center;
+    color: white;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 8%;
+    font-size: 30px;
+    font-weight: 100;
+  }
+
+ #name {
+    border-radius: 50px;
+    width: 30%;
+    padding: 8px;
+    background-color: #000000;
+    color: white;
+    border: 1px double white;
+    margin-right: 10%;
+
+  }
+label {
+    margin-right: 1%;
+    font-size: 15px;
+}
+  input#submitForm {
+    margin-top: 2%;
+    border-radius: 50px;
+    width: 7%;
+    background-color: #000000;
+    color: white;
+    border: 1px double #000000;
+    font-size: 15px;
+  }
+
+  form {
+    
+    text-align: center;
+    color: white;
+  }
+  
+ #memberButton {
+    /* margin-left: 2%;
+    margin-right: 2%; */
+    padding: 25px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    border-radius: 50px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+ } 
+
+ #group {
+    color: white;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    font-size: 30px;
+ }
+
+ button#submitQuiz {
+    margin-bottom: 5%;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+
+ }
+
+ /* resultHeading */
+ .memberHeading {
+    font-size: 100px;
+ }
+ h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+ }
+    
+ #quizResults {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 5%;
+
+ }
+
+ .quizLabel {
+    font-size: 30px;
+ }
+
+ #clearResult {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 5%;
+ }
+
+ .memberAssignment {
+    font-size: 100px;
+ }

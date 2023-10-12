@@ -1,0 +1,19 @@
+body {
+    background-color: #000000;
+  }
+  
+  h1 {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-size: 10rem;
+    font-family: "Moirai One", cursive;
+    text-align: center;
+    color: white;
+  }
+  
+  form {
+    text-align: center;
+    color: white;
+  }
+  
+  
